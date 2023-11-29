@@ -1,5 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import getData from "./getData";
+
+const result = getData(1);
+console.log(result);
 
 function App() {
   return (
